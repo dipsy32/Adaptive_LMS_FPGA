@@ -27,7 +27,7 @@ module lms_tb();
         rst_btn = 0;
         
         // Run for enough time to see convergence
-        // (1024 samples * approx 25 cycles/sample * 10ns = ~250us minimum)
+        // (1024 samples * approx 35 cycles/sample * 10ns = ~360us minimum)
         #1000000; 
         
         $finish;
